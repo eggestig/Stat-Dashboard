@@ -404,6 +404,204 @@
 			"parent": 3,
 			"expanded": false,
 			"childrenId": []
+		},
+		{
+			"id": 44,
+			"name": "Sales",
+			"src": "sales_icon.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [45, 46]
+		},
+		{
+			"id": 45,
+			"name": "Sale 1",
+			"src": "sales_1_icon.jpg",
+			"selected": false,
+			"parent": 44,
+			"expanded": false,
+			"childrenId": [47]
+		},
+		{
+			"id": 46,
+			"name": "Sale 2",
+			"src": "sales_2_icon.jpg",
+			"selected": false,
+			"parent": 44,
+			"expanded": false,
+			"childrenId": [48, 49]
+		},
+		{
+			"id": 47,
+			"name": "Land",
+			"src": "sales_1_land_icon.jpg",
+			"selected": false,
+			"parent": 45,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 48,
+			"name": "Land",
+			"src": "sales_2_land_icon.jpg",
+			"selected": false,
+			"parent": 46,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 49,
+			"name": "Badges",
+			"src": "sales_2_badges_icon.jpg",
+			"selected": false,
+			"parent": 46,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 50,
+			"name": "Community",
+			"src": "community_icon.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [51, 52, 53, 54, 55, 56, 57, 58, 59]
+		},
+		{
+			"id": 51,
+			"name": "Discord",
+			"src": "community_discord_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 52,
+			"name": "Telegram",
+			"src": "community_telegram_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 53,
+			"name": "Youtube",
+			"src": "community_youtube_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 54,
+			"name": "Twitter",
+			"src": "community_twitter_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 55,
+			"name": "Reddit",
+			"src": "community_reddit_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 56,
+			"name": "Twitch",
+			"src": "community_twitch_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 57,
+			"name": "Support",
+			"src": "community_support_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 58,
+			"name": "Forum",
+			"src": "community_forum_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 59,
+			"name": "Google Trends",
+			"src": "community_google_trends_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 60,
+			"name": "In-Game",
+			"src": "in_game.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [61]
+		},
+		{
+			"id": 61,
+			"name": "Game stat category",
+			"src": "in_game_temp.jpg",
+			"selected": false,
+			"parent": 60,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 62,
+			"name": "Settings",
+			"src": "settings.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [63]
+		},
+		{
+			"id": 63,
+			"name": "Data Sources",
+			"src": "settings_data_sources.jpg",
+			"selected": false,
+			"parent": 62,
+			"expanded": false,
+			"childrenId": [64, 65]
+		},
+		{
+			"id": 64,
+			"name": "Assets",
+			"src": "settings_data_sources_assets.jpg",
+			"selected": false,
+			"parent": 63,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 65,
+			"name": "Community",
+			"src": "settings_data_sources_community.jpg",
+			"selected": false,
+			"parent": 63,
+			"expanded": false,
+			"childrenId": []
 		}
 	]
 }
