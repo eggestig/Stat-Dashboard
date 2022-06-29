@@ -1,0 +1,607 @@
+{
+	"sidebarElements": [
+		{
+			"id": 99999,
+			"name": "Assets", 
+			"src": "assets_icon.jpg",
+			"selected": true,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [1, 2, 3]
+		},
+		{
+			"id": 1,
+			"name": "Ember Sword",
+			"src": "ember_sword_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [4, 5, 6, 7]
+		},
+		{
+			"id": 4,
+			"name": "Land",
+			"src": "ember_sword_land_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [8, 9, 10, 11]
+		},
+		{
+			"id": 5,
+			"name": "Badges",
+			"src": "ember_sword_badges_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [12, 13, 14, 15]
+		},
+		{
+			"id": 6,
+			"name": "Ember",
+			"src": "ember_sword_ember.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 7,
+			"name": "Collectibles",
+			"src": "ember_sword_collectibles_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [16, 17, 18, 19, 20, 21, 22]
+		},
+		{
+			"id": 8,
+			"name": "Regular",
+			"src": "ember_sword_land_regular_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 9,
+			"name": "Settlement",
+			"src": "ember_sword_land_settlement_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 10,
+			"name": "Town",
+			"src": "ember_sword_land_town_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 11,
+			"name": "City",
+			"src": "ember_sword_land_city_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 12,
+			"name": "Bronze",
+			"src": "ember_sword_badges_bronze_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 13,
+			"name": "Silver",
+			"src": "ember_sword_badges_silver_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 14,
+			"name": "Gold",
+			"src": "ember_sword_badges_gold_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 15,
+			"name": "Platinum",
+			"src": "ember_sword_badges_platinum_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 16,
+			"name": "Armor",
+			"src": "ember_sword_collectibles_armor_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [23, 24, 25, 26, 27]
+		},
+		{
+			"id": 17,
+			"name": "Weapons",
+			"src": "ember_sword_collectibles_weapons_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [30, 31, 32]
+		},
+		{
+			"id": 18,
+			"name": "Gathering Tools",
+			"src": "ember_sword_collectibles_gathering_tools_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [33, 34, 35, 36]
+		},
+		{
+			"id": 19,
+			"name": "Avatars",
+			"src": "ember_sword_collectibles_avatars_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 20,
+			"name": "Emotes",
+			"src": "ember_sword_collectibles_emotes_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 21,
+			"name": "Pets",
+			"src": "ember_sword_collectibles_pets_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 22,
+			"name": "Mounts",
+			"src": "ember_sword_collectibles_mounts_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 23,
+			"name": "Head",
+			"src": "ember_sword_collectibles_armor_head_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 24,
+			"name": "Chest",
+			"src": "ember_sword_collectibles_armor_chest_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 25,
+			"name": "Legs",
+			"src": "ember_sword_collectibles_armor_legs_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 26,
+			"name": "Feet",
+			"src": "ember_sword_collectibles_armor_feet_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 27,
+			"name": "Hands",
+			"src": "ember_sword_collectibles_armor_hands_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 28,
+			"name": "1-Handed",
+			"src": "ember_sword_collectibles_1_handed_icon.jpg",
+			"selected": false,
+			"parent": 17,
+			"expanded": false,
+			"childrenId": [30, 31]
+		},
+		{
+			"id": 29,
+			"name": "2-Handed",
+			"src": "ember_sword_collectibles_2_handed_icon.jpg",
+			"selected": false,
+			"parent": 17,
+			"expanded": false,
+			"childrenId": [32]
+		},
+		{
+			"id": 30,
+			"name": "Short Swords",
+			"src": "ember_sword_collectibles_weapons_1_handed_short_swords_icon.jpg",
+			"selected": false,
+			"parent": 28,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 31,
+			"name": "Shields",
+			"src": "ember_sword_collectibles_weapons_1_handed_shields_icon.jpg",
+			"selected": false,
+			"parent": 28,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 32,
+			"name": "Great Swords",
+			"src": "ember_sword_collectibles_weapons_2_handed_great_swords_icon.jpg",
+			"selected": false,
+			"parent": 29,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 33,
+			"name": "Pickaxes",
+			"src": "ember_sword_collectibles_gathering_tools_pickaxes_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 34,
+			"name": "Sickles",
+			"src": "ember_sword_collectibles_gathering_tools_sickles_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 35,
+			"name": "Axes",
+			"src": "ember_sword_collectibles_gathering_tools_axes_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 36,
+			"name": "Fishing Rods",
+			"src": "ember_sword_collectibles_gathering_tools_fishing_rods_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 2,
+			"name": "The Sandbox",
+			"src": "the_sandbox_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [37, 38]
+		},
+		{
+			"id": 37,
+			"name": "Land",
+			"src": "the_sandbox_land_icon.jpg",
+			"selected": false,
+			"parent": 2,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 38,
+			"name": "Assets",
+			"src": "the_sandbox_assets_icon.jpg",
+			"selected": false,
+			"parent": 2,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 3,
+			"name": "Mirandus",
+			"src": "mirandus_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [39, 40, 41, 42, 43]
+		},
+		{
+			"id": 39,
+			"name": "Buildings",
+			"src": "mirandus__icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 40,
+			"name": "Art",
+			"src": "mirandus_art_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 40,
+			"name": "Exemplar",
+			"src": "mirandus_examplar_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 41,
+			"name": "Dragon Vouche",
+			"src": "mirandus_dragon_voucher_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 42,
+			"name": "Ships",
+			"src": "mirandus_ships_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 43,
+			"name": "Docks",
+			"src": "mirandus_docks_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 44,
+			"name": "Sales",
+			"src": "sales_icon.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [45, 46]
+		},
+		{
+			"id": 45,
+			"name": "Sale 1",
+			"src": "sales_1_icon.jpg",
+			"selected": false,
+			"parent": 44,
+			"expanded": false,
+			"childrenId": [47]
+		},
+		{
+			"id": 46,
+			"name": "Sale 2",
+			"src": "sales_2_icon.jpg",
+			"selected": false,
+			"parent": 44,
+			"expanded": false,
+			"childrenId": [48, 49]
+		},
+		{
+			"id": 47,
+			"name": "Land",
+			"src": "sales_1_land_icon.jpg",
+			"selected": false,
+			"parent": 45,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 48,
+			"name": "Land",
+			"src": "sales_2_land_icon.jpg",
+			"selected": false,
+			"parent": 46,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 49,
+			"name": "Badges",
+			"src": "sales_2_badges_icon.jpg",
+			"selected": false,
+			"parent": 46,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 50,
+			"name": "Community",
+			"src": "community_icon.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [51, 52, 53, 54, 55, 56, 57, 58, 59]
+		},
+		{
+			"id": 51,
+			"name": "Discord",
+			"src": "community_discord_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 52,
+			"name": "Telegram",
+			"src": "community_telegram_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 53,
+			"name": "Youtube",
+			"src": "community_youtube_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 54,
+			"name": "Twitter",
+			"src": "community_twitter_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 55,
+			"name": "Reddit",
+			"src": "community_reddit_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 56,
+			"name": "Twitch",
+			"src": "community_twitch_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 57,
+			"name": "Support",
+			"src": "community_support_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 58,
+			"name": "Forum",
+			"src": "community_forum_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 59,
+			"name": "Google Trends",
+			"src": "community_google_trends_icon.jpg",
+			"selected": false,
+			"parent": 50,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 60,
+			"name": "In-Game",
+			"src": "in_game.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [61]
+		},
+		{
+			"id": 61,
+			"name": "Game stat category",
+			"src": "in_game_temp.jpg",
+			"selected": false,
+			"parent": 60,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 62,
+			"name": "Settings",
+			"src": "settings.jpg",
+			"selected": false,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [63]
+		},
+		{
+			"id": 63,
+			"name": "Data Sources",
+			"src": "settings_data_sources.jpg",
+			"selected": false,
+			"parent": 62,
+			"expanded": false,
+			"childrenId": [64, 65]
+		},
+		{
+			"id": 64,
+			"name": "Assets",
+			"src": "settings_data_sources_assets.jpg",
+			"selected": false,
+			"parent": 63,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 65,
+			"name": "Community",
+			"src": "settings_data_sources_community.jpg",
+			"selected": false,
+			"parent": 63,
+			"expanded": false,
+			"childrenId": []
+		}
+	]
+}

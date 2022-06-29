@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import TodoList from './TodoList'
 import Sidebar from './SidebarApp/Sidebar'
 import { v4 as uuidv4 } from 'uuid'
+const sidebarElements = require('./SidebarApp/SidebarContent.json').sidebarElements
 
 /** 
  * 
@@ -52,58 +53,6 @@ function handleClearTodos(todos, setTodos) {
  * Sidebar
  * 
 */
-const sidebarElements = [
-	{
-		id: 0,
-		name: "boop 0", 
-		src: "image_link_0.jpg",
-		selected: true,
-		parent: null,
-		childrenId: []
-	},
-	{
-		id: 1,
-		name: "boop 1",
-		src: "image_link_1.jpg",
-		selected: false,
-		parent: null,
-		expanded: true,
-		childrenId: [3, 4]
-	},
-	{
-		id: 2,
-		name: "boop 2",
-		src: "image_link_2.jpg",
-		selected: false,
-		parent: null,
-		childrenId: []
-	},
-	{
-		id: 3,
-		name: "boop 3",
-		src: "image_link_3.jpg",
-		selected: false,
-		parent: 1,
-		childrenId: []
-	},
-	{
-		id: 4,
-		name: "boop 4",
-		src: "image_link_4.jpg",
-		selected: false,
-		parent: 1,
-		expanded: false,
-		childrenId: [5]
-	},
-	{
-		id: 5,
-		name: "boop 4",
-		src: "image_link_4.jpg",
-		selected: false,
-		parent: 4,
-		childrenId: []
-	}
-];
 
 function toggleSidebarElem(id, sidebar, setSidebar) {
 	const tempSidebar = [...sidebar]; //Copy
@@ -129,6 +78,7 @@ function App() {
 	*/
 
 	//Sidebar
+	console.log(sidebarElements);
 	const [sidebar, setSidebar] = useState(sidebarElements);
 
 	return (

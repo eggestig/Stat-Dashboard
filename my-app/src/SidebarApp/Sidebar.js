@@ -6,14 +6,20 @@ import './Sidebar.css'
 export default function Sidebar({ elems, toggleElem }) {
 	const depth = 0;
 
+	let elemContCount = 0;
+	let elemCount = 0;
+
 	const arr = elems.map((elem) => {
+		console.log("1" + elem.id);
 		if(elem.parent) return
 		
 		if(elem.childrenId.length > 0) {
 			const children = elem.childrenId.map(childId => {
+				console.log("2" + elem.id);
 				return elems.find(elem => elem.id === childId)
 			})
-
+			elemContCount++;
+			console.log("3" + elem.id);
 			return (
 				<SidebarElemCont 
 					key={elem.id} 
@@ -25,6 +31,8 @@ export default function Sidebar({ elems, toggleElem }) {
 				/>
 			)
 		}
+		elemCount++;
+		console.log("4" + elem.id);
 		return (
 			<SidebarElem 
 				key={elem.id} 
