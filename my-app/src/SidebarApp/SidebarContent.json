@@ -19,24 +19,6 @@
 			"childrenId": [4, 5, 6, 7]
 		},
 		{
-			"id": 2,
-			"name": "The Sandbox",
-			"src": "the_sandbox_icon.jpg",
-			"selected": false,
-			"parent": 99999,
-			"expanded": false,
-			"childrenId": []
-		},
-		{
-			"id": 3,
-			"name": "Mirandus",
-			"src": "mirandus_icon.jpg",
-			"selected": false,
-			"parent": 99999,
-			"expanded": false,
-			"childrenId": []
-		},
-		{
 			"id": 4,
 			"name": "Land",
 			"src": "ember_sword_land_icon.jpg",
@@ -330,6 +312,96 @@
 			"src": "ember_sword_collectibles_gathering_tools_fishing_rods_icon.jpg",
 			"selected": false,
 			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 2,
+			"name": "The Sandbox",
+			"src": "the_sandbox_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [37, 38]
+		},
+		{
+			"id": 37,
+			"name": "Land",
+			"src": "the_sandbox_land_icon.jpg",
+			"selected": false,
+			"parent": 2,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 38,
+			"name": "Assets",
+			"src": "the_sandbox_assets_icon.jpg",
+			"selected": false,
+			"parent": 2,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 3,
+			"name": "Mirandus",
+			"src": "mirandus_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [39, 40, 41, 42, 43]
+		},
+		{
+			"id": 39,
+			"name": "Buildings",
+			"src": "mirandus__icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 40,
+			"name": "Art",
+			"src": "mirandus_art_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 40,
+			"name": "Exemplar",
+			"src": "mirandus_examplar_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 41,
+			"name": "Dragon Vouche",
+			"src": "mirandus_dragon_voucher_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 42,
+			"name": "Ships",
+			"src": "mirandus_ships_icon.jpg",
+			"selected": false,
+			"parent": 3,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 43,
+			"name": "Docks",
+			"src": "mirandus_docks_icon.jpg",
+			"selected": false,
+			"parent": 3,
 			"expanded": false,
 			"childrenId": []
 		}
