@@ -1,0 +1,337 @@
+{
+	"sidebarElements": [
+		{
+			"id": 99999,
+			"name": "Assets", 
+			"src": "assets_icon.jpg",
+			"selected": true,
+			"parent": null,
+			"expanded": false,
+			"childrenId": [1, 2, 3]
+		},
+		{
+			"id": 1,
+			"name": "Ember Sword",
+			"src": "ember_sword_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": [4, 5, 6, 7]
+		},
+		{
+			"id": 2,
+			"name": "The Sandbox",
+			"src": "the_sandbox_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 3,
+			"name": "Mirandus",
+			"src": "mirandus_icon.jpg",
+			"selected": false,
+			"parent": 99999,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 4,
+			"name": "Land",
+			"src": "ember_sword_land_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [8, 9, 10, 11]
+		},
+		{
+			"id": 5,
+			"name": "Badges",
+			"src": "ember_sword_badges_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [12, 13, 14, 15]
+		},
+		{
+			"id": 6,
+			"name": "Ember",
+			"src": "ember_sword_ember.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 7,
+			"name": "Collectibles",
+			"src": "ember_sword_collectibles_icon.jpg",
+			"selected": false,
+			"parent": 1,
+			"expanded": false,
+			"childrenId": [16, 17, 18, 19, 20, 21, 22]
+		},
+		{
+			"id": 8,
+			"name": "Regular",
+			"src": "ember_sword_land_regular_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 9,
+			"name": "Settlement",
+			"src": "ember_sword_land_settlement_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 10,
+			"name": "Town",
+			"src": "ember_sword_land_town_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 11,
+			"name": "City",
+			"src": "ember_sword_land_city_icon.jpg",
+			"selected": false,
+			"parent": 4,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 12,
+			"name": "Bronze",
+			"src": "ember_sword_badges_bronze_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 13,
+			"name": "Silver",
+			"src": "ember_sword_badges_silver_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 14,
+			"name": "Gold",
+			"src": "ember_sword_badges_gold_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 15,
+			"name": "Platinum",
+			"src": "ember_sword_badges_platinum_icon.jpg",
+			"selected": false,
+			"parent": 5,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 16,
+			"name": "Armor",
+			"src": "ember_sword_collectibles_armor_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [23, 24, 25, 26, 27]
+		},
+		{
+			"id": 17,
+			"name": "Weapons",
+			"src": "ember_sword_collectibles_weapons_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [30, 31, 32]
+		},
+		{
+			"id": 18,
+			"name": "Gathering Tools",
+			"src": "ember_sword_collectibles_gathering_tools_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": [33, 34, 35, 36]
+		},
+		{
+			"id": 19,
+			"name": "Avatars",
+			"src": "ember_sword_collectibles_avatars_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 20,
+			"name": "Emotes",
+			"src": "ember_sword_collectibles_emotes_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 21,
+			"name": "Pets",
+			"src": "ember_sword_collectibles_pets_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 22,
+			"name": "Mounts",
+			"src": "ember_sword_collectibles_mounts_icon.jpg",
+			"selected": false,
+			"parent": 7,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 23,
+			"name": "Head",
+			"src": "ember_sword_collectibles_armor_head_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 24,
+			"name": "Chest",
+			"src": "ember_sword_collectibles_armor_chest_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 25,
+			"name": "Legs",
+			"src": "ember_sword_collectibles_armor_legs_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 26,
+			"name": "Feet",
+			"src": "ember_sword_collectibles_armor_feet_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 27,
+			"name": "Hands",
+			"src": "ember_sword_collectibles_armor_hands_icon.jpg",
+			"selected": false,
+			"parent": 16,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 28,
+			"name": "1-Handed",
+			"src": "ember_sword_collectibles_1_handed_icon.jpg",
+			"selected": false,
+			"parent": 17,
+			"expanded": false,
+			"childrenId": [30, 31]
+		},
+		{
+			"id": 29,
+			"name": "2-Handed",
+			"src": "ember_sword_collectibles_2_handed_icon.jpg",
+			"selected": false,
+			"parent": 17,
+			"expanded": false,
+			"childrenId": [32]
+		},
+		{
+			"id": 30,
+			"name": "Short Swords",
+			"src": "ember_sword_collectibles_weapons_1_handed_short_swords_icon.jpg",
+			"selected": false,
+			"parent": 28,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 31,
+			"name": "Shields",
+			"src": "ember_sword_collectibles_weapons_1_handed_shields_icon.jpg",
+			"selected": false,
+			"parent": 28,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 32,
+			"name": "Great Swords",
+			"src": "ember_sword_collectibles_weapons_2_handed_great_swords_icon.jpg",
+			"selected": false,
+			"parent": 29,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 33,
+			"name": "Pickaxes",
+			"src": "ember_sword_collectibles_gathering_tools_pickaxes_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 34,
+			"name": "Sickles",
+			"src": "ember_sword_collectibles_gathering_tools_sickles_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 35,
+			"name": "Axes",
+			"src": "ember_sword_collectibles_gathering_tools_axes_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		},
+		{
+			"id": 36,
+			"name": "Fishing Rods",
+			"src": "ember_sword_collectibles_gathering_tools_fishing_rods_icon.jpg",
+			"selected": false,
+			"parent": 18,
+			"expanded": false,
+			"childrenId": []
+		}
+	]
+}
