@@ -1,0 +1,20 @@
+/*** Non-Selected ***/
+
+.sidebarElem {
+	height: 1.5em;
+	user-select: none;
+  cursor: pointer;
+	padding-left: 0.75em;
+  background-color: rgb(193, 193, 193);
+  transition: background-color .075s linear;
+}
+
+.sidebarElem:hover {
+  background-color: rgb(156, 156, 156);
+}
+
+/*** Selected ***/
+
+.sidebarElem#selected {
+  background-color: rgb(141, 141, 141);
+}

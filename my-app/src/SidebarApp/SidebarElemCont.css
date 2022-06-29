@@ -1,0 +1,22 @@
+
+.sidebarElemCont {
+	position:relative;
+	z-index: 1;
+
+}
+
+.sidebarElemContChildren {
+	padding-left: 0em;
+	position:relative;
+	z-index: -100;
+	
+	transition: padding-left 0.05s;
+}
+
+.sidebarElemContChildren#expanded {
+	position:relative;
+	display:block;
+	z-index: 1;
+	padding-left: 2em;
+	transition: padding-left 0.05;
+}
