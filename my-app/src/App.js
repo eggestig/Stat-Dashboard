@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react' 
 import Sidebar from './SidebarApp/Sidebar'
+import Header from './HeaderApp/Header'
 import { v4 as uuidv4 } from 'uuid'
+import './App.css'
+
+
+
 const sidebarElements = require('./SidebarApp/SidebarContent.json').sidebarElements
 
 /** 
@@ -8,7 +13,6 @@ const sidebarElements = require('./SidebarApp/SidebarContent.json').sidebarEleme
  * Sidebar
  * 
 */
-
 function toggleSidebarElem(id, sidebar, setSidebar) {
 	const tempSidebar = [...sidebar]; //Copy
 
@@ -33,8 +37,11 @@ function App() {
 
 	return (
 		<>
-			<div className="sidebarApp">
+			<div className="SidebarApp">
 				<Sidebar elems={sidebarElements} toggleElem={(id) => {return toggleSidebarElem(id, sidebar, setSidebar)}}/>
+			</div>
+			<div className="HeaderApp">
+				<Header />
 			</div>
 		</>
 	);
