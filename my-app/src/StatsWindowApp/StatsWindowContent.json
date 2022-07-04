@@ -1,0 +1,176 @@
+{
+	"containers": [
+		{
+			"type": 0,
+			"info": [
+				{
+					"attr": "h2"
+				},
+				{
+					"attr": "h3"
+				},
+				{
+					"attr": "h3"
+				}
+			]
+		},
+		{
+			"type": 1,
+			"info": [
+				{
+					"attr": "h2"
+				},
+				{
+					"attr": "PieChart"
+				}
+			]
+		},
+		{
+			"type": 2,
+			"info": [
+				{
+					"attr": "h2"
+				},
+				{
+					"attr": "LineChart"
+				}
+			]
+		},
+		{
+			"type": 3,
+			"info": [
+				{
+					"attr": "h2"
+				},
+				{
+					"attr": "BarChart"
+				}
+			]
+		},
+		{
+			"type": 4,
+			"info": [
+				{
+					"attr": "h2"
+				},
+				{
+					"attr": "RawData"
+				}
+			]
+		}
+	],
+	"pages": {
+		"Assets": {
+			"containers": [
+				{
+					"type": 0,
+					"id": 0,
+					"elements": [
+						{
+							"id": 0,
+							"h2": "Volume Today",
+							"h3_1": "$999.99",
+							"h3_2": "$222.51 BSS"
+						},
+						{
+							"id": 1,
+							"h2": "Market Cap",
+							"h3_1": "$986123.21",
+							"h3_2": "$98031.41 BSS"
+						},
+						{
+							"id": 2,
+							"h2": "Unique Owners",
+							"h3_1": "5000",
+							"h3_2": "20% of all assets"
+						}
+					]
+				},
+				{
+					"type": 1,
+					"id": 1,
+					"elements": [
+						{
+							"id": 0,
+							"h2": "Vol. Breakdown",
+							"data": [
+								{
+									"id": 0,
+									"label": "Land",
+									"value": 382
+								},
+								{
+									"id": 1,
+									"label": "Badges",
+									"value": 132
+								},
+								{
+									"id": 2,
+									"label": "Ember",
+									"value": 266
+								},
+								{
+									"id": 3,
+									"label": "Collectibles",
+									"value": 220
+								}
+							]
+						},
+						{
+							"id": 1,
+							"h2": "M.Cap Breakdown",
+							"data": [
+								{
+									"id": 0,
+									"label": "Land",
+									"value": 224046.21
+								},
+								{
+									"id": 1,
+									"label": "Badges",
+									"value": 288567.0
+								},
+								{
+									"id": 2,
+									"label": "Ember",
+									"value": 300092.0
+								},
+								{
+									"id": 3,
+									"label": "Collectibles",
+									"value": 173418.0
+								}
+							]
+						},
+						{
+							"id": 2,
+							"h2": "Market Vol. Breakdown",
+							"data": [
+								{
+									"id": 0,
+									"label": "TokenTrove",
+									"value": 382
+								},
+								{
+									"id": 1,
+									"label": "OpenSea",
+									"value": 132
+								},
+								{
+									"id": 2,
+									"label": "Immutable",
+									"value": 266
+								},
+								{
+									"id": 3,
+									"label": "EmberSword",
+									"value": 220
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

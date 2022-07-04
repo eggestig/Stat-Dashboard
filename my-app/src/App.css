@@ -4,6 +4,7 @@
   background-color: rgb(231, 231, 231);
 	float:left;
 	padding: 0.3em;
+	margin-right: 0.6em;
 	overflow-y: auto;
 }
 
@@ -13,7 +14,15 @@
 	float: right;
   background-color: rgb(231, 231, 231);
 	padding: 0.3em;
-	margin-left: 0.6em;
+	margin-bottom: 0.6em;
+}
+
+.StatsWindowApp {
+	height: calc(100% - 10em  - (2*0.3em) - (2*0.3em));
+	width: calc(100% - 22.5em - 0.6em - (2*0.3em));
+	float: right;
+  background-color: rgb(231, 231, 231);
+	padding: 0.3em;
 }
 
 #root {

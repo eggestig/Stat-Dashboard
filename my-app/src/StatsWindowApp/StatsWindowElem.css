@@ -1,0 +1,29 @@
+.StatsWindowElem {
+	background-color: rgb(74,80,83);
+	border: rgb(110, 120, 124) 2px solid;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	padding: 0.3em;
+
+}
+
+.StatsWindowElem > * {	
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 0;
+	margin: none;
+
+}
+
+.StatsWindowElem > h2 {	
+	text-align: center;
+	font-size:1.5em;
+	margin-bottom: 2em;
+}
+
+.StatsWindowElem > h3 {	
+	text-align: center;
+	font-weight: normal;;
+	font-size:1.5em;
+}

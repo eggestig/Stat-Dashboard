@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react' 
 import Sidebar from './SidebarApp/Sidebar'
 import Header from './HeaderApp/Header'
-import { v4 as uuidv4 } from 'uuid'
+import StatsWindow from './StatsWindowApp/StatsWindow'
 import './App.css'
 
-
-
-const sidebarElements = require('./SidebarApp/SidebarContent.json').sidebarElements
+const StatsContent = require('./StatsWindowApp/StatsWindowContent.json')
+const SidebarElements = require('./SidebarApp/SidebarContent.json').sidebarElements
 
 /** 
  * 
@@ -32,16 +31,23 @@ function App() {
 
 
 	//Sidebar
-	console.log(sidebarElements);
-	const [sidebar, setSidebar] = useState(sidebarElements);
+	const [sidebar, setSidebar] = useState(SidebarElements);
+
+	//Header
+
+	//StatsWindow
+	const [stats, setStats] = useState(StatsContent);
 
 	return (
 		<>
 			<div className="SidebarApp">
-				<Sidebar elems={sidebarElements} toggleElem={(id) => {return toggleSidebarElem(id, sidebar, setSidebar)}}/>
+				<Sidebar elems={sidebar} toggleElem={(id) => {return toggleSidebarElem(id, sidebar, setSidebar)}}/>
 			</div>
 			<div className="HeaderApp">
 				<Header />
+			</div>
+			<div className="StatsWindowApp">
+				<StatsWindow pageStats={stats.pages[sidebar.find(elem => elem.selected).name]}/>
 			</div>
 		</>
 	);
