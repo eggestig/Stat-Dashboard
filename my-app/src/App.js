@@ -47,7 +47,7 @@ function App() {
 				<Header />
 			</div>
 			<div className="StatsWindowApp">
-				<StatsWindow pageStats={stats.pages[sidebar.find(elem => elem.selected).name]}/>
+				<StatsWindow pageStats={stats.pages[sidebar.find(elem => elem.selected).name]} stats={stats}/>
 			</div>
 		</>
 	);

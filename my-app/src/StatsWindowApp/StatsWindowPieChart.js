@@ -1,5 +1,13 @@
 import React from 'react'
 
-export default function StatsWindowPieChart({}) {
-	return <>Chart</>
+function getPieChart() {
+
+}
+
+export default function StatsWindowPieChart({data}) {
+	return (
+		<>
+			{getPieChart(data)}
+		</>
+	)
 }
